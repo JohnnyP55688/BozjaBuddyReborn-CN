@@ -40,7 +40,7 @@
 https://raw.githubusercontent.com/JohnnyP55688/BozjaBuddyReborn-CN/main/repo.json
 ```
 
-随后在插件安装器中搜索“Bozja Buddy Reborn 国服版”。在仓库首次发布 Release 前，此地址不会提供有效下载。
+随后刷新插件安装器并搜索“Bozja Buddy Reborn 国服版”。发布包由本仓库的 `repo.json` 直接提供。
 
 ### 本地开发版
 
