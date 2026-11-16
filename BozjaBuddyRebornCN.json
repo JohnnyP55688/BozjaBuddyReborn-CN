@@ -1,0 +1,12 @@
+{
+  "Author": "OmegaJackie contributors / JohnnyP55688 CN build",
+  "Name": "Bozja Buddy Reborn 国服版",
+  "InternalName": "BozjaBuddyRebornCN",
+  "Punchline": "博兹雅南方战线与扎杜诺尔自动化编排",
+  "Description": "国服独立标识构建，避免与上游同名插件冲突。读取博兹雅南方战线/扎杜诺尔状态，协调 vnavmesh、BossMod Reborn 与 Rotation Solver，并提供义军武器进度追踪。基于 OmegaJackie/DalamudPlugins 的 Bozja Buddy Reborn。",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/JohnnyP55688/BozjaBuddyReborn-CN",
+  "Tags": [ "bozja", "zadnor", "field operations", "automation", "CN" ],
+  "LoadRequiredState": 0,
+  "CanUnloadAsync": false
+}

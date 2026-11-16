@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "BozjaBuddyRebornCN/1.0.29.0": {
+        "dependencies": {
+          "ECommons": "3.2.1.26"
+        },
+        "runtime": {
+          "BozjaBuddyRebornCN.dll": {}
+        }
+      },
+      "ECommons/3.2.1.26": {
+        "runtime": {
+          "ECommons.dll": {
+            "assemblyVersion": "3.2.1.26",
+            "fileVersion": "3.2.1.26"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BozjaBuddyRebornCN/1.0.29.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ECommons/3.2.1.26": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "Author": "OmegaJackie contributors / JohnnyP55688 CN build",
+    "Name": "Bozja Buddy Reborn 国服版",
+    "InternalName": "BozjaBuddyRebornCN",
+    "AssemblyVersion": "1.0.29.0",
+    "TestingAssemblyVersion": "1.0.29.0",
+    "Description": "博兹雅南方战线与扎杜诺尔流程编排及义军武器进度追踪。国服独立内部名称构建。",
+    "Punchline": "博兹雅、扎杜诺尔与义军武器流程助手。",
+    "RepoUrl": "https://github.com/JohnnyP55688/BozjaBuddyReborn-CN",
+    "ApplicableVersion": "any",
+    "Tags": [ "Bozja", "Zadnor", "Relic", "Automation", "CN" ],
+    "CategoryTags": [ "utility" ],
+    "DalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://github.com/JohnnyP55688/BozjaBuddyReborn-CN/releases/latest/download/BozjaBuddyRebornCN-1.0.29.0.zip",
+    "DownloadLinkUpdate": "https://github.com/JohnnyP55688/BozjaBuddyReborn-CN/releases/latest/download/BozjaBuddyRebornCN-1.0.29.0.zip",
+    "DownloadLinkTesting": "https://github.com/JohnnyP55688/BozjaBuddyReborn-CN/releases/latest/download/BozjaBuddyRebornCN-1.0.29.0.zip",
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "DownloadCount": 0,
+    "LastUpdate": "1794787200"
+  }
+]
