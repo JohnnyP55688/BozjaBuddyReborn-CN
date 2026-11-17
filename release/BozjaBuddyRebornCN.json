@@ -1,8 +1,8 @@
 {
-  "Author": "OmegaJackie contributors / JohnnyP55688 CN build",
+  "Author": "JohnnyP55688",
   "Name": "Bozja Buddy Reborn 国服版",
   "InternalName": "BozjaBuddyRebornCN",
-  "AssemblyVersion": "1.0.28.0",
+  "AssemblyVersion": "1.0.30.0",
   "Description": "国服独立标识构建，避免与上游同名插件冲突。读取博兹雅南方战线/扎杜诺尔状态，协调 vnavmesh、BossMod Reborn 与 Rotation Solver，并提供义军武器进度追踪。基于 OmegaJackie/DalamudPlugins 的 Bozja Buddy Reborn。",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/JohnnyP55688/BozjaBuddyReborn-CN",
