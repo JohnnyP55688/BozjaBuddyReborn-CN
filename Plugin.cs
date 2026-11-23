@@ -48,6 +48,7 @@ public sealed class Plugin : IDalamudPlugin
     private readonly SignUpRunner _signUps;
     private readonly PartySupportDriver _partySupport;
     private readonly BozjaController _controller;
+    private readonly RelicFlowStatusIpc _relicFlowStatusIpc;
 
     private readonly DutyActionSync _dutySync;
 
@@ -84,6 +85,7 @@ public sealed class Plugin : IDalamudPlugin
         _controller = new BozjaController(
             _config, _catalog, _selector, _movement, _director, _approach, _holster, _link, _navmesh, _regions,
             _errands, _loadoutDriver, _signUps, _partySupport);
+        _relicFlowStatusIpc = new RelicFlowStatusIpc(pluginInterface, _controller);
 
         _mainWindow = new MainWindow(_config, _controller, _director, _navmesh, _link, _catalog) { IsOpen = false };
         _configWindow = new ConfigWindow(_config, _lostActions, _regions, _aggroAvoidance)
@@ -330,6 +332,7 @@ public sealed class Plugin : IDalamudPlugin
 
     public void Dispose()
     {
+        _relicFlowStatusIpc.Dispose();
         Svc.Framework.Update -= OnUpdate;
 
         // A hook that outlives the plugin crashes the client on the next callback.
